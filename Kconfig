@@ -1,1 +1,1 @@
-rsource "src/Kconfig"
+rsource "src/display/Kconfig"
