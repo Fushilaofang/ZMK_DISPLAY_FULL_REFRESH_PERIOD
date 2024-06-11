@@ -7,3 +7,5 @@ zephyr_library_sources_ifdef(CONFIG_ZMK_DISPLAY src/display/main.c)
 zephyr_library_sources_ifdef(CONFIG_ZMK_DISPLAY_STATUS_SCREEN_BUILT_IN src/display/status_screen.c)
 
 add_subdirectory_ifdef(CONFIG_ZMK_DISPLAY src/display/widgets/)
+
+zephyr_include_directories(${APPLICATION_SOURCE_DIR}/include)
